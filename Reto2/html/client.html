@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto_Reto2</title>
+    <script type="text/javascript" src="../JavaScript/client.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/Styles.css"/>
+</head>
+<body>
+
+    <h1> Hola, Esta es la Base de Datos CLIENT </h1>
+    <div id="resultado">  </div>
+    <div>
+        <br><br>  
+        <input type="number" id="id" placeholder="Id">
+        <input type="text" id="name" placeholder="name">
+        <input type="text" id="email" placeholder="email">
+        <input type="number" id="age" placeholder="age">
+        
+        <br><br>  
+        <button onclick="traerDatos()" > Consultar </button>
+        <button onclick="guardarInfo()"> Guardar </button>
+        <button onclick="editarInfo()"> Actualizar </button>
+    </div>
+    
+</body>
+</html>
